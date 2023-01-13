@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100wh;
+}
+
+.btn {
+  height: 75px;
+  width: 75px;
+  border-radius: 10px;
+  margin: 2px;
+  font-size: 30px;
+}
+
+.number:hover {
+  background-color: palegreen;
+}
+
+.operator:hover {
+  background-color: palegoldenrod;
+}
+
+.decimal:hover {
+  background-color: paleturquoise;
+}
+
+.equal:hover {
+  background-color: rgb(101, 104, 153);
+}
+
+.clear:hover {
+  background-color: palevioletred;
+}
+
+.screen {
+  border: 1px solid black;
+  height: 65px;
+  width: 225px;
+  margin-right: 8px;
+}
+
+.first-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clear {
+  margin-left: 10px;
+}
