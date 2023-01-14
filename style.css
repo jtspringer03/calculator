@@ -40,6 +40,22 @@ body {
   height: 65px;
   width: 225px;
   margin-right: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.previousScreen {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+
+.currentScreen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 30px;
 }
 
 .first-row {
